@@ -1,0 +1,66 @@
+﻿namespace = ewoc_events
+
+ewoc_events.1 = { # Napoleon Returned!
+	type = country_event
+	placement = ROOT
+	
+	title = ewoc_events.1.t
+	desc = ewoc_events.1.d
+	flavor = ewoc_events.1.f
+	
+	duration = 3
+	
+	gui_window = event_window_1char_tabloid
+	
+	left_icon = scope:romeo
+	
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
+	
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	cooldown = {days = never_fire_again_modifier_time}
+	
+	trigger = { }
+	
+	immediate = {
+		create_character = {
+			template = ewoc_napoleon_bonaparte
+			on_created = {
+				set_variable = napoleon_var
+			}
+		}
+		random_scope_character = {
+			limit = {
+				has_variable = napoleon_var
+			}
+			save_scope_as = napoleon_scope
+		}
+	}
+		
+	option = {
+		name = ewoc_events.1.a
+		default_option = yes
+		ai_chance = {
+			base = 99
+		}
+		scope:napoleon_scope = {
+			set_character_as_ruler = yes
+		}
+		add_modifier = {
+			name = modifier_return_of_the_emperor
+		}
+		change_infamy = 150
+	}
+	
+	option = {
+		ai_chance = {
+			base = 1
+		}
+		name = ewoc_events.1.b
+		scope:napoleon_scope = {
+			kill_character = yes
+		}
+}
+	
+		

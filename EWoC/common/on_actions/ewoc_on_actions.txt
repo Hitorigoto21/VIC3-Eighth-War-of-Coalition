@@ -1,0 +1,19 @@
+﻿on_game_started_after_lobby = {
+	on_actions = {
+	ewoc_on_actions
+	}
+}
+
+		
+ewoc_on_actions = {
+	effect = {
+		every_country = {
+			if = {
+				limit = {
+					c:FRA ?= this
+				}
+				trigger_event = { id = ewoc_events.1}
+			}
+		}
+	}	
+}

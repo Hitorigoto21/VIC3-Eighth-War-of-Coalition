@@ -1,0 +1,5 @@
+﻿modifier_return_of_the_emperor = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_infamy_generation_mult = 1.0
+}
+	
