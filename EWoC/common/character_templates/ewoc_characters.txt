@@ -16,5 +16,6 @@
 		ambitious
 		expert_artillery_commander
 		expert_defensive_strategist
+		special_character_napoleon
 	}
 }
