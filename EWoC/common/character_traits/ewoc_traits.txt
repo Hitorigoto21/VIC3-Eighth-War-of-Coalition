@@ -1,4 +1,4 @@
-special_character_napoleon = {
+﻿special_character_napoleon = {
 	type = personality
 	texture = "gfx/interface/icons/character_trait_icons/special_character_traits/special_character_pedro_legitimacy.dds"
 	
@@ -7,8 +7,8 @@ special_character_napoleon = {
 	}
 	
 	command_modifier = {
-		unit_defense_mult = 1.0
-		unit_offense_mult = 1.5
+		unit_defense_mult = 0.5
+		unit_offense_mult = 0.5
 		character_command_limit_add = 600
 	}
 	
