@@ -19,11 +19,7 @@
 	agitator_modifier = {
 		
 	}
-
-	executive_modifier = {
-		
-	}
-
+	
 	possible = {
 		
 	}

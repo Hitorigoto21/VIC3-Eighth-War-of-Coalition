@@ -4,7 +4,7 @@
 	}
 }
 
-		
+
 ewoc_on_actions = {
 	effect = {
 		every_country = {
@@ -12,8 +12,8 @@ ewoc_on_actions = {
 				limit = {
 					c:FRA ?= this
 				}
-				trigger_event = { id = ewoc_events.1}
+				trigger_event =  ewoc_events.1
 			}
-		}
+		}	
 	}	
 }

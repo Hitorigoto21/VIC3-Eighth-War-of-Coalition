@@ -1,0 +1,7 @@
+﻿COUNTRIES = {
+	c:FRA ?= {
+		trigger_event = {
+			id = ewoc_events.1
+		}
+	}
+}

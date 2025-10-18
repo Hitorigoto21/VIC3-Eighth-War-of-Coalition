@@ -61,6 +61,5 @@ ewoc_events.1 = { # Napoleon Returned!
 		scope:napoleon_scope = {
 			kill_character = yes
 		}
+	}
 }
-	
-		
