@@ -1,0 +1,23 @@
+wsg_portrait = {
+	usage = game
+
+    wsg_Tashkent_portrait = {
+        dna_modifiers = {
+            accessory = {
+                mode = replace
+                gene = wsg_props
+                template = gene_wsg_Tashkent
+                value = 1
+            }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 10000
+                no_portrait_trigger = yes
+            }
+            
+        }
+    }
+}

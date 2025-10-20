@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:FRA = {
+		create_character = {
+			# Napoleon_bonaparte
+			first_name = "Napoleon"
+			last_name = "Bonaparte"
+			historical = yes
+			female = no
+			is_agitator = no
+			culture = primary_culture
+			birth_date = 1769.8.15
+			interest_group = ig_armed_forces
+			ideology = ideology_jingoist_leader
+			traits = {
+				expert_offensive_planner
+				resupply_commander
+				surveyor
+				ambitious
+				expert_artillery_commander
+				expert_defensive_strategist
+				special_character_napoleon
+			}
+			genes = {
+				accessory_genes = { "ewoc_napoleon_gene" }
+			}
+		}
+	}
+}

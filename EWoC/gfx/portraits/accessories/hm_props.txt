@@ -1,0 +1,3 @@
+wsg_Tashkent = {
+	entity = { required_tags = "" shared_pose_entity = head entity = "wsg_Tashkent_entity" }
+}
