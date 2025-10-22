@@ -8,7 +8,7 @@ CHARACTERS = {
 			is_agitator = no
 			culture = primary_culture
 			birth_date = 1769.8.15
-			dna = dna_king_louis_philippe_01
+			dna = ewoc_dna_napoleon
 			interest_group = ig_armed_forces
 			ideology = ideology_jingoist_leader
 			traits = {
@@ -21,8 +21,8 @@ CHARACTERS = {
 				special_character_napoleon
 			on_created = {
 				set_character_flag = ewoc_character_flag
+				}
 			}
 		}
 	}
-}
-			
+}			

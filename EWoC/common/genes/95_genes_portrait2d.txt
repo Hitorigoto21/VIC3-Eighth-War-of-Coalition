@@ -1,10 +1,10 @@
-﻿accessory_genes = {
-
+﻿
+accessory_genes = {
 	wsg_props = {
 		gene_wsg_Tashkent = {
-			index = 0
+			index = 1
 			male = {
-				1 = "wsg_Tashkent"
+				1 = wsg_Tashkent
 			}
 			female = male
 			boy = male
@@ -12,4 +12,5 @@
 		}
 	}
 }
+
 

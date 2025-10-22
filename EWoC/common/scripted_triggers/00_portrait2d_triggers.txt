@@ -1,31 +1,33 @@
 ﻿
 no_portrait_trigger = {
-	exists = c:FRA
-	OR = {
-		AND = {
-			exists = scope:character
-			scope:character = {
-				owner = {
-					#c:FRA = this
-				}
-			}
-		}
+#	exists = c:FRA
+#	OR = {
+#		AND = {
+#			exists = scope:character
+#			scope:character = {
+#				owner = {
+#					#c:FRA = this
+#				}
+#			}
+#		}
+#
+#		AND = {
+#			exists = scope:pop
+#			scope:pop = {
+#				owner = {
+#					#c:FRA = this
+#				}
+#			}
+#		}
+#		
+#	}
+#	
+}
 
-		AND = {
-			exists = scope:pop
-			scope:pop = {
-				owner = {
-					#c:FRA = this
-				}
-			}
-		}
-		
+ewoc_pt_trigger = {
+	exists = scope:character
+	scope:character = {
+		has_variable = napoleon_var
 	}
-	
 }
-
-show_wsg_Tashkent_trigger = {
-	show_wsg_Tashkent_trigger = yes
-}
-
 

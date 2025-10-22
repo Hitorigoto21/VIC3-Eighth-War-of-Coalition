@@ -1,10 +1,10 @@
-wsg_portrait = {
+wsg_portrait = { #FCK I WANT TO KILL MYSELF
 	usage = game
 
     wsg_Tashkent_portrait = {
         dna_modifiers = {
             accessory = {
-                mode = replace
+                mode = add
                 gene = wsg_props
                 template = gene_wsg_Tashkent
                 value = 1
@@ -14,10 +14,11 @@ wsg_portrait = {
         weight = {
             base = 0
             modifier = {
-                add = 10000
-                no_portrait_trigger = yes
+				or = {
+                ewoc_pt_trigger = yes
             }
-            
+			add = 10000
         }
     }
+}
 }
